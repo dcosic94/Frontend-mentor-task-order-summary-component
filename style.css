@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100%;
+    width:100%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 62.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    max-width: 144rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 1srem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+
+.card {
+    width: 45rem;
+    height: 70rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.top-image {
+    width: 45rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.summary {
+    margin: 4rem 4rem 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.summary h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: hsl(223, 47%, 23%)
+}
+
+.summary p {
+    font-size: 1.6rem;
+    color: hsl(224, 23%, 55%);
+    margin: 2rem 1rem;
+    line-height: 2.5rem;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    height: 10rem;
+    width: 35rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+ .price h2 {
+    line-height: 2.5rem;
+    margin-left: -5rem;
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: hsl(223, 47%, 23%)
+ }
+
+ .price p {
+     margin-left: -5rem;
+     font-weight: 500;
+    font-size: 1.6rem;
+    color: hsl(224, 23%, 55%);
+ }
+
+.price-button a {
+    font-size: 1.4rem;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.price-button a:hover {
+    color: #7c72e2;
+}
+
+.price-button a:active {
+    color: #7c72e2;
+}
+
+.flex-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.payment-button {
+    width: 35rem;
+    height: 5rem;
+    margin: 3rem auto;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 1rem;
+    box-shadow: 0px 16px 32px 19px #E0E8FF;
+}
+
+.payment-button a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.payment-button:hover {
+    background-color: #766cf1;
+    box-shadow: 0px 16px 32px 19px #e1defb;
+}
+
+
+.cancel-button a {
+    font-size: 1.5rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-button a:hover {
+    color: #2d3252;
+
+}
