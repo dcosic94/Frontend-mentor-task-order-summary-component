@@ -17,6 +17,7 @@ html {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding: 45rem 0;
 }
 
 main {
@@ -44,6 +45,7 @@ button {
     height: 70rem;
     background-color: #fff;
     border-radius: 2rem;
+    box-shadow: 5px 15px 34px 5px rgba(123,113,225,0.5);
 }
 
 .top-image {
@@ -148,4 +150,49 @@ button {
 .cancel-button a:hover {
     color: #2d3252;
 
+}
+
+@media (max-width: 40em) {
+    html {
+        background-image: url('images/pattern-background-mobile.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 40rem 0;
+    }    
+
+    .card {
+        width: 33rem;
+        height: 65rem;
+    }
+
+    .card img {
+        width: 33rem;
+    }
+
+    .summary {
+        margin: 3rem;
+    }
+
+    .summary p {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+
+    .plan {
+        width: 28rem;
+    }
+
+    .price h2 {
+        margin:0;
+        font-size: 1.4rem;
+    }
+
+    .price p {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .payment-button {
+        width: 28rem;
+    }
 }
